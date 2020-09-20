@@ -1,12 +1,70 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>Interactive Data Visualization Tutorial1</title>
     <link rel="stylesheet" href="./style.css">
-  </head>
+    <script>
+      alert("No bonus points (sum and highlighting rows) in this product but I did my best!")
+      </script>  
+      
+    </head>
   <body>
-    Welcome to Interactive Data Visualization Tutorials
+
+  
+  Welcome to Interactive Data Visualization Tutorial 1
+    <br>
+    <br>
+    <h1 class="table-title">Top 50 Trending TV Series
+      <br>Streaming on <a href="https://www.netflix.com/">
+      <br> <img src= "Netflix-Logo-500x157.png" width="20%" height="20%" alt="Netflix">
+    </a></h1>
+    <br>
+    <section>
+      <h3>Example 1: Native HTML Table</h3>
+      <br>
+      <table class="center">
+      <thead>
+        <tr>
+          <th colspan="5">::Dataset Description::</th>
+          </tr>
+        <tr>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Rating</th>
+          <th>IMDb</th>
+          <th>Streaming</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>trending TV series</td>
+            <td>year released</td>
+            <td>Netflix rating</td>
+            <td>IMDb score</td>
+            <td>streaming available (1)<br> not available (0)</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br>
+    </section>
+    <br><br>
+    <hr/>
+    <br><br>
+    <section>
+      <h3>Example 2: HTML Table leveraging D3.js</h3>
+      <br>
+      <p>*Recent series (2015 and after) are <mark>highlighted</mark>.</p>
+      <table id="d3-table"></table>
+    </section>
+    
     <script src="../lib/d3.js"></script>
     <script src="main.js"></script>
   </body>
+<br>
+<br>
+<br>
+
+  <footer> source: <a href ="https://www.kaggle.com/ritesh2000/trending-tv-shows-on-netflix">kaggle</a></footer>
 </html>
