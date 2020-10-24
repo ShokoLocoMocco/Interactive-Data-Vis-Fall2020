@@ -8,7 +8,7 @@ d3.csv("TVShows-Netflix_mod.csv", d3.autoType).then(data => {
   // constants help us reference the same values throughout our code
   const width = window.innerWidth * 0.8,
   height = window.innerHeight ,
-  paddingInner = 0.2,
+  paddingInner = 0.15,
   margin = { top: 30, bottom: 50, left: 50, right: 40 };
 
 /** SCALES */
@@ -56,15 +56,10 @@ const text = svg
   .join("text")
   .attr("class", "label")
   // this allows us to position the text in the center of the bar
-  .attr("x", d => xScale(d.IMDb))
-  .attr("y", d => yScale(d.Title)+ (yScale.bandwidth() / 100))
-  .text(d => d.IMDb)
-  .attr("dy", "1.5em");
-
-  // .attr("x", d => xScale(d.activity) + (xScale.bandwidth() / 2))
-  // .attr("y", d => yScale(d.count))
-  // .text(d => d.count)
-  // .attr("dy", "1.25em");
+  .attr("x", d => xScale(d.IMDb) - 120)
+  .attr("y", d => yScale(d.Title) + (yScale.bandwidth() / 200))
+  .text(d => d.Title)
+  .attr("dy", "1em");
 
 svg
   .append("g")
