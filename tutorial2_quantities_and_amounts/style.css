@@ -1,0 +1,27 @@
+body {
+    /* ref: https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap */
+    font-family: 'Lato', sans-serif;
+    padding: 1em 3em;
+    background-color: #EBF5FB;
+  }
+  
+  h1 {
+    color: navy;
+    text-align: center;
+  }
+  p {
+    font-size: small;
+  }
+  .label {
+    fill: whitesmoke;
+    text-anchor: middle;
+  }
+  
+  .axis {
+    font-size: 16px;
+  }
+
+  header,
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+  }
