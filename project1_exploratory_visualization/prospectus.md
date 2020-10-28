@@ -19,5 +19,5 @@
 <br>
 I miss summer, especially this summer was nothing that we would have enjoyed.  Listened to some summer songs and had to deal with it.  But how do summer songs sell in reality?  Must show a seasonal trend - but is there a yearly trend with social events?
 
-<img src="..Song Titles with Summer.png">
+<img src="Song Titles with Summer.png">
 
