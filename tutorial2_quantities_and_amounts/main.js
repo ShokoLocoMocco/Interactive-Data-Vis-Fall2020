@@ -15,7 +15,7 @@ d3.csv("TVShows-Netflix_mod.csv", d3.autoType).then(data => {
 // reference for d3.scales: https://github.com/d3/d3-scale
   const xScale = d3
   .scaleLinear()
-  .domain([.1, d3.max(data, d => d.IMDb)])
+  .domain([7.5, 10])
   .range([20, width - margin.left]);
 
   const yScale = d3
@@ -70,8 +70,8 @@ svg
   svg
   .append("g")
   .attr("class", "axis")
-  .attr("transform", `translate(0, ${width - margin.left})`)
-  .call(yAxis);
+  .attr("transform", `translate(${width - margin.left})`)
+ ;
   });
 
 
