@@ -22,5 +22,7 @@ I miss summer, especially this summer was nothing that we would have enjoyed.  L
 Data to be used: https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv <br>
 and other supporting materials accordingly.
   <br>
+    <br>
+      <br>
 <img src="Song Titles with Summer.png">
 
