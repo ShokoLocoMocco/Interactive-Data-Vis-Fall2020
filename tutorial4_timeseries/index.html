@@ -1,14 +1,38 @@
 <!DOCTYPE html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    <link rel="icon" type="image/png" href="../lib/favicon.png"/>
+
     <title>Interactive Data Visualization Tutorial</title>
+          <!-- custom font: Lato from Google Font -->
+          <!-- custom font: Lato from Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    Welcome to Interactive Data Visualization Tutorials
-    <label for="dropdown">Filter Selection</label>
+    <header>
+      Tutorial 4 Time Series Data
+    </header>
+    Welcome to Interactive Data Visualization Tutorials 4<br>
+    <br>
+    <h1><a href="https://www.netflix.com/">
+      <img src= "../lib/Netflix-Logo-500x157.png" width="25%" height="25%" alt="Netflix"></a><br>
+      Quarterly Revenue<br>
+    by Regions<br>
+    from Q1 - 2018 to Q4 - 2019
+  </h1>
+  <br>
+    <br>
+    <label for="dropdown">Area</label>
     <select id="dropdown" name="dropdown"></select>
+    <!-- all we need is an element to select -->
+    <div id="d3-container"> </div>
+
+    <!-- this is the line that loads in d3 -->
     <script src="../lib/d3.js"></script>
-    <script src="main.js"></script>
+    <!-- this is the line that loads in the main js script -->
+    <script src="./main.js"></script>
   </body>
+  <br><br><br><br>
+  <footer> source: <a href ="data:application/octet-stream;charset=utf-8,Area%2CQ1%20-%202018%2CQ2%20-%202018%2CQ3%20-%202018%2CQ4%20-%202018%2CQ1%20-%202019%2CQ2%20-%202019%2CQ3%20-%202019%2CQ4%20-%202019%2CQ1%20-%202020%2CQ2%20-%202020%0AUnited%20States%20and%20Canada%2C60909000%2C61870000%2C63010000%2C64757000%2C66633000%2C66501000%2C67114000%2C67662000%2C69969000%2C72904000%0A%22Europe%2C%20Middle%20East%2C%20and%20Africa%22%2C29339000%2C31317000%2C33836000%2C37818000%2C42542000%2C44229000%2C47355000%2C51778000%2C58734000%2C61483000%0ALatin%20America%2C21260000%2C22795000%2C24115000%2C26077000%2C27547000%2C27890000%2C29380000%2C31417000%2C34318000%2C36068000%0AAsia-Pacific%2C7394000%2C8372000%2C9461000%2C10607000%2C12141000%2C12942000%2C14485000%2C16233000%2C19835000%2C22492000">comparitech</a> (link opens .csv file)</footer>
+</html>
 </html>
