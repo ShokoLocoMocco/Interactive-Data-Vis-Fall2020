@@ -1,7 +1,7 @@
 // data load
 //T2
 // reference for d3.autotype: https://github.com/d3/d3-dsv#autoType
-d3.csv("summer songs.csv", d3.autoType).then(data => {
+d3.csv("Summer Songs on Chart.csv", d3.autoType).then(data => {
     console.log(data);
   
     /** CONSTANTS */
@@ -15,18 +15,18 @@ d3.csv("summer songs.csv", d3.autoType).then(data => {
   // reference for d3.scales: https://github.com/d3/d3-scale
     const xScale = d3
     .scaleLinear()
-    .domain([7.5, 10])
+    .domain([0, 30])
     .range([20, width - margin.left]);
   
     const yScale = d3
     .scaleBand()
-    .domain(data.map(d => d.Title))
+    .domain(data.map(d => d.Songs))
     .range([margin.top, height - margin.bottom])
     .paddingInner(paddingInner)
     ;
   
   // reference for d3.axis: https://github.com/d3/d3-axis
-  const xAxis = d3.axisBottom(xScale).ticks(data.length);
+  const xAxis = d3.axisBottom(xScale);
   const yAxis = d3.axisLeft(yScale).ticks(data.length);
   
   /** MAIN CODE */
@@ -43,11 +43,11 @@ d3.csv("summer songs.csv", d3.autoType).then(data => {
     .selectAll("rect")
     .data(data)
     .join("rect")
-    .attr("y", d => yScale(d.Title))
-    .attr("x", 20) ///d => xScale(d.count))
-    .attr("width", d => xScale(d.IMDb))
+    .attr("y", d => yScale(d.Songs))
+    .attr("x", 30) ///d => xScale(d.count))
+    .attr("width", d => xScale(d.Chart))
     .attr("height", d => yScale.bandwidth())
-    .attr("fill", "rgba(178, 32, 32, 1)");
+    .attr("fill", "#00C2CB");
   
   // append text
   const text = svg
@@ -56,9 +56,9 @@ d3.csv("summer songs.csv", d3.autoType).then(data => {
     .join("text")
     .attr("class", "label")
     // this allows us to position the text in the center of the bar
-    .attr("x", d => xScale(d.IMDb) - 120)
-    .attr("y", d => yScale(d.Title) + (yScale.bandwidth() / 200))
-    .text(d => d.Title)
+    .attr("x", d => xScale(d.Chart) - 120)
+    .attr("y", d => yScale(d.Songs) + (yScale.bandwidth() / 200))
+    .text(d => d.Songs)
     .attr("dy", "1em");
   
   svg
