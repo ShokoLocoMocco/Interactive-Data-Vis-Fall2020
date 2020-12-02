@@ -31,8 +31,35 @@ This project is not intended to be an exercise in data science or analysis, rath
 • Code should be clean, readable, and commented where appropriate <br>
 • Design process deliverables completed and submitted on time <br>
  <br>
-
-I miss summer, especially this summer was nothing that we would have enjoyed.  Listened to some summer songs and had to deal with it.  But how do summer songs sell in reality?  Must show a seasonal trend - but is there a yearly trend with social events? <br>
+ <br>
+- Interest in music (spotify, youtube, Iheart, applemusic data) current trend in music industry (what songs/genre people listen to) <br> Yearly trend, seasonal, locations Using personalized data (my own listening history) <br>
+Development <br>
+Time trend of my listening <br>
+Which music genre I listen to most <br>
+ <br>
+Targeting people in the music industry <br>
+Which hours people listen to music the most, so that
+what time of the day is the best hour for ads
+ <br>
+How to attract subscribers <br>
+ <br>
+kaggle
+ <br>
+-Deepen
+Data: personal history from Spotify (she could get it easily) <br>
+But, she needs global data from general public (US users) <br>
+NYC vs. LA Comparison <br>
+ <br>
+Smaller numbers of variables (demographics, weather factor - summer vs. winter) <br>
+ <br>
+Perspective: (dis)proving your assumption in terms of dissimilar trends if any. <br>
+Is there any big difference between east vs. west coasts in people's musical trend <br>
+ <br>
+Audience: advertiser, marketer, music industry, singers, artist, personal interest <br>
+ <br>
+Topic: I'm visualizing the music trends of LA & NYC <br>
+ <br>
+<br>
  <br>
 Data to be used: https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv <br>
 and other supporting materials accordingly.
