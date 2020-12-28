@@ -1,0 +1,50 @@
+html {
+    background: url(music-bg.png)no-repeat center center fixed; 
+    background-size: cover;
+
+}
+
+body {
+    /* ref: https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap */
+    font-family: 'Lato', sans-serif;
+    padding: 1em 3em;
+  }
+
+.dot {
+  cursor: pointer;
+}
+
+.dot:hover {
+  fill: navy;
+}
+
+.axis-label {
+  font-size: 14px;
+  fill: black;
+  text-anchor: middle;
+}
+
+header,
+footer {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align: center;
+  color: navy;
+  font-weight: bolder;
+}
+
+label,
+select {
+  text-align: center;
+  font-size: 18px;
+}
+
+.d3-container {
+  fill: whitesmoke;
+}
+
+p {
+  font-size: small;
+}
