@@ -2,31 +2,32 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="../lib/favicon.png"/>
-    <title>Project 1: Explanatory Visualization Table</title>
-      <!-- custom font: Lato from Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Proj1: Explanatory Visualization - Revised</title>
+          <!-- custom font: Lato from Google Font -->
+          <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/d3@6.3.1/dist/d3.min.js"></script>
   </head>
+
   <body>
-<img src="title-m.png" alt="billboard Summer Songs">
-    <h1>Songs with "<em>Summer"</em> in Title</h1> 
+    <img src="title-m.png" alt="billboard Summer Songs">
+    <h1>Songs with "<em>Summer" </em>  in Title</h1> 
    
     <br> 
     <br>
-    *Data from all songs in Billboard top 100 chart from 1958 to 2019, in which the song title is filtered by "summer".  This part was actually done with Excel pivot table but I'm sure there is a way to do so while constructing the visualization with D3.  This leads to my next challenge.
-    <br>
-    My next challenge also is to be able to fix the bar chart heights (which I was able to do so on Tutorial 2) and also create a scatterplot freely for my purposes.
+    *Data from all songs in the Billboard HOT 100 chart from 1958 to 2019, in which the song title is filtered by "summer". 
     <br> 
+    Each bar shows how many weeks the song was in the chart.<br>
     <br>
-    <div id="d3-container"> </div>
-    by weeks in Billboard chart
-    <script src="../lib/d3.js"></script>
+    <br>
+    <center><svg width="960" height="2500" style="background: whitesmoke"></svg>
+    </center>
+  <br>
+  <br>
+  <br>
     <script src="main.js"></script>
-    <br><br>
-
-
-</body>
-<br><br><br><br>
-<footer> source: <a href ="https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv">data.world</a> 
-</footer>
-</html>
+  </body>
+  <br><br><br><br>
+  <footer> source: <a href ="https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv">data.world</a> 
+  </footer>
+  </html>
