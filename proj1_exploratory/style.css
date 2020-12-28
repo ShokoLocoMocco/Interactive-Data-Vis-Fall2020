@@ -1,0 +1,64 @@
+html {
+    background: url(beach-bg.png)no-repeat center center fixed; 
+    background-size: cover;
+
+}
+
+body {
+    /* ref: https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap */
+    font-family: 'Lato', sans-serif;
+    padding: 1em 3em;
+  }
+
+.dot {
+  cursor: pointer;
+}
+
+.dot:hover {
+  fill: navy;
+}
+
+.axis-label {
+  font-size: 14px;
+  fill: black;
+  text-anchor: middle;
+  font-family: 'Lato', sans-serif;
+}
+
+header,
+footer {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align: center;
+  color: navy;
+  font-weight: bolder;
+}
+
+label,
+select {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.d3-container {
+  fill: whitesmoke;
+}
+
+p {
+  font-size: small;
+}
+
+.axis-label{
+  font-size: 3.5em;
+fill: #8E8883;
+}
+
+.tick text {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+  fill: #635F5D;
+}
