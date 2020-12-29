@@ -10,51 +10,83 @@
   <body>
 
     <h1>Portfolio with D3.js Visualizations </h1> 
-    <img src="SHOKOLATTE-lb.png" height="140"alt="ShoBoo Entertainment">
+    <img class="resize" src="SHOKOLATTE-lb.png"  alt="Sho-Boo Entertainment">
     <br> 
     <br>
     <br> 
     <br>
     <br> 
     <br>
-    <h3>Shokolatte Tachikawa, MBA<br>
-    Data Analysis and Visualization, MS candidate at CUNY Graduate Center<br>
+    <h3 class='name'>Shokolatte Tachikawa, MBA</h3>
+    <h3 class='title'>Data Analysis and Visualization, M.Sc. candidate <br>
+    at CUNY Graduate Center<br>
+    Course: DATA73200 Fall 2020</h3><br>
+
 </h3>
 <br>
     <br>
-    I am a Master's student in Data Analysis and Visualization program at CUNY Graduate Cetner and in my first semester - the notorious Fall 2020 that they might call in the future (imagine no one is completely adept with online meetings while everything was taken to online from home) - I took a DATA73200 Course that . <br>
-Which hours people listen to music the most, so that what time of the day is the best hour for ads<br>
-How to attract subscribers<br>
-<br>
-kaggle<br>
--Deepen Data: personal history from Spotify (she could get it easily)<br>
-But, she needs global data from general public (US users)<br>
-NYC vs. LA Comparison<br>
-<br>
-Smaller numbers of variables (demographics, weather factor - summer vs. winter)<br>
-<br>
-Perspective: (dis)proving your assumption in terms of dissimilar trends if any.<br>
-Is there any big difference between east vs. west coasts in people's musical trend<br>
-<br>
-Audience: advertiser, marketer, music industry, singers, artist, personal interest<br>
-<br>
-Topic: I'm visualizing the music trends of LA & NYC<br> 
     <br>
-
+   <div class="proj1" width=60% style="background: whitesmoke">
+       <a href="https://shokolocomocco.github.io/Interactive-Data-Vis-Fall2020/project1_exploratory_visualization/"><h2>Exploratory Visualization</h2>
+        <br>
+       <center><img class='resize' src="proj1-ss.png" alt="Project 1: Exploratory Visualization"></center></a>
+       <br>
+       <br>
+       
+       Formed a bar chart using d3.js to visualize the songs that have "Summer" in its title and the x-axis shows how many weeks they were in the Billboard HOT 100 Chart.  The source is from Kaggle and I marked my recommendations with a ♬ icon.
+       <br><br>
+       
+   </div> 
+   <br><br>
+   <br><br>
+   <div class="asmnt" width="60%" style="background: whitesmoke">
+    <h2>Accomplished Assignments</h2>
+    <table align="center" style=font-weight: bold;>
+        <colgroup>
+            <col span="3">
+        </colgroup>
+        <tr>
+            <td align = 'center'><br>
+                <a href="https://shokolocomocco.github.io/Interactive-Data-Vis-Fall2020/tutorial2_quantities_and_amounts/"><img class='resize' src="assign2.png" alt="Assignment 2: Quantities and Amount"><br>
+            <b>Assignment 2: Quantities and Amount</b></a></td>
+            <td align = 'center'><br><a href="https://shokolocomocco.github.io/Interactive-Data-Vis-Fall2020/tutorial3_distributions/"><img class='resize' src="assign3.png" alt="Assignment 3: Distributions" ><br>
+                <b>Assignment 3: Distributions</b></a></td>
+            <td align = 'center'><br><a href="https://shokolocomocco.github.io/Interactive-Data-Vis-Fall2020/tutorial4_timeseries/"><img class='resize' src="assign4.png" alt="Assignment 4: Time Series Data"><br>
+            <b>Assignment 4: Time Series Data</b></a></td>
+        </tr>
+    </table>
     <br>
-    <center><svg width="960" height="1000" style="background: whitesmoke"></svg>
-    </center>
-  <br>
-
-    <div id="d3-container"> </div>
-    
-    <script src="../lib/d3.js"></script>
-    <script src="main.js"></script>
+    <br>
+    <br>
+    These are the assignments where I learned the d3 techniques and finding datasets that are appropriate for each expressions.  I enjoyed searching for NETFLIX datasets to adhere to my original interest and thus was able to manage consistent preceptible structure.
     <br><br>
-
-
+</div> 
+<br><br>
+<br><br>
+<h3 class='name'>Reflections</h3>
+<p>
+    This was my first time I heard about d3.js.  I did not know what 'library' means in the world of coding.  It took me a lot of time, readings and YouTube videos to finally grapple the idea of chaining method, or why "const" matters in writing codes in JavaScript.  I never lost my interest in the d3, though, and I am pleased to be able to present my final portpolio here today. <br>
+    <br>
+    Since I am an MBA (Summer 2020) and my focus during the MBA program was on Digital Marketing, I knew my visualizations in this course will be about marketing analysis, namely in the entertainment or music field as I aspire to contribute to the industry here in NYC. <br>
+    <br>
+    Indeed, learning a new skill is always challenging but finding data sources to analyze was very new to me.  In the MBA program or even in the real business world, the data is usually given and my job had always been to analyze the addressed problems and find solutions for better decision making.  However, in this data analysis world, I came to realize finding own datasets is an initial challenge so that we can make sure there is an appropriate visualization method apply, to convince our intended target audiences.<br>
+    <br>
+    During the semester, I mainly accessed <a href="https://www.kaggle.com/" target = "_blank">Kaggle</a> and <a href= "https://data.world/" target="_blank">Data.World</a> to find datasets on NETFLIX, Spotify, Billboard, and more from the entertainment/music companies.  Before I constructed a visualization (even though my technical skills may not have reached to the level), I thought about how to incorporate the images that the company has already established.  But to fairly deliver the analysis as a third-party contributer, I also understood that we should not be too obsessed with the desired outcomes.<br>
+    <br>
+    Technically, a lot of times I suffered from the data or other files not properly load for me.  Sometimes it's the category names in the csv file, sometimes my computer that doesn't close files properly prevented me to overwrite the files.  One of the solutions during the recurring issues that I had, was to use the online d3 npm package found at <a href = 'https://unpkg.com/d3@6.3.1/dist/d3.min.js' target="_blank">https://unpkg.com/d3@6.3.1/dist/d3.min.js</a>, instead of using the d3.js file in another location in the local drive.  It can be simply loaded in the &lt;script&gt; tag and it made my life a lot easier.<br>
+    <br>
+    Covid semester...  There sure were lots of unprecedented challenges especially this was my first semester in this Data Analysis and Visualizaton program.  Everything was online, and unlike normal on-campus classrooms, not having anyone who shares the same interest or concerns around was a very isolating experince that I constantly had to remind myself to reach out for the resources from home.  In a way, this helped me focus on my researches unbothered, but I do believe in the power of collaborating and more often than I thought, felt the limit of what one can do. <br>
+    <br>
+    I am wishing everyone's well-being in these tough times and hope this pandemic be over very soon so that we all can go back to campus and study together in person using the plentiful resources and computers in the labs that the Graduate Center offers us.    
+</p>
+    <br>
+    <br>
+   <br><br>
+My other works/profile pages can be found <a href="https://linktr.ee/ShoweeNYC" target="_blank">here</a>.  Please stay connected.
+<br>
 </body>
 <br><br><br><br>
-<footer> source: <a href ="https://data.world/kcmillersean/billboard-hot-100-1958-2017/workspace/file?filename=Hot+Stuff.csv">data.world</a> 
+<footer> 
+    (c) 2020-2021
 </footer>
 </html>

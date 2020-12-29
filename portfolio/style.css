@@ -9,6 +9,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     padding: 1em 3em;
+
   }
 
 .dot {
@@ -35,6 +36,7 @@ h1{
   color: navy;
   font-weight: bolder;
   font-size: 3.5em;
+  text-decoration: none;
 }
 
 label,
@@ -47,6 +49,49 @@ select {
   fill: whitesmoke;
 }
 
-p {
-  font-size: small;
+
+
+h2{
+    color: navy;
 }
+
+
+
+.proj1,
+.asmnt {
+    fill: lightblue;
+    padding: 1em ;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+
+a:hover {
+    color: blue;
+  }
+
+a:active {
+    color: blue;
+  }
+
+.table {
+    background: rgba(2,2,2, 0.2); 
+    width: 500px;
+  }
+
+  img.resize {
+    max-width:50%;
+    max-height:50%;
+  }
+
+ .name{
+     font-size: 2em;
+ } 
+
+ .title{
+     font-size: 1.4em;
+ }
